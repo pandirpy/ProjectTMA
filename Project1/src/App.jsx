@@ -4,6 +4,7 @@ import MultipleInput from "./Components/MultipleInput"
 import ChildEvent from "./Components/ChildEvent"
 import Cart from "./Components/Cart"
 import TodoListApp from "./Components/TodoList"
+import HeaderStyle from "./Components/HeaderStyle"
 function App() {
   
   return (
@@ -13,6 +14,7 @@ function App() {
       <ChildEvent/>
       <Cart/>
       <MultipleInput/>
+      <HeaderStyle/>
       <TodoListApp/>
     </div>
   )
